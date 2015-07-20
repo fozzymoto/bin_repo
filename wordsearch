@@ -1,0 +1,3 @@
+for word in $(find -L /usr/share -name '*.txt' | xargs cat | tr -c '[:alnum:]' ' '| tr '[:punct:]' ' '); do echo $word; done | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -nr | head -100
+
+find -L /usr/share -name "*.txt" | wc -w
