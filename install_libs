@@ -13,7 +13,9 @@ fi
 #-------------------------------------------------------------
 PKGS=(libboost-all-dev
       git-all
-      gitk)
+      gitk
+      gcc-arm-linux-gnueabi
+      vim)
 TOT_PKGS=${#PKGS[@]}
 FAIL_PKGS=()
 
