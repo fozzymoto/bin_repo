@@ -1,2 +1,2 @@
-ffs=unix
+set ffs=unix
 

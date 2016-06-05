@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ln -s $(UTILS_PATH)/.bashrc ~/.bashrc
+ln -s $(UTILS_PATH)/.bash_aliases ~/.bash_aliases
+ln -s $(UTILS_PATH)/.bash_profile ~/.bash_profile
+ln -s $(UTILS_PATH)/.vimrc ~/.vimrc
+
