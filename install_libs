@@ -33,4 +33,10 @@ if [ ${#FAIL_PKGS[*]} != 0 ]; then
     echo "Following Pacakages failed to install: ${FAIL_PKGS} "
 fi
 
+# Need to add ppa
+# sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa
+# sudo apt-get update
+# sudo apt-get install-gcc-arm-embedded
+
+
 exit 0
