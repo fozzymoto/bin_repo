@@ -1,1 +1,1 @@
-sudo mount -t vboxsf -o uid=1000,gid=1000 winmnt /mnt/winmnt
+sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) winmnt /mnt/winmnt
